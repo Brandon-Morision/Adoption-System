@@ -1,0 +1,32 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Windows scripts use CRLF
+*.ps1 text eol=crlf
+*.vbs text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Source code files
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+
+# Binary file types
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pfx binary
+*.cer binary
+*.crt binary
+*.zip binary
+*.tar.gz binary

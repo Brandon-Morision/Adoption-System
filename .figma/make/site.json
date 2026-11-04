@@ -1,0 +1,14 @@
+{
+  "title": "AODS",
+  "description": "County Adoption Records System - Securely digitizes and manages county adoption records, enabling authorized employees to efficiently search, add, edit, and maintain confidential adoption data.",
+  "icons": {
+    "icon": "/aods.ico"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
